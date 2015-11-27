@@ -1,0 +1,28 @@
+{
+    "version": "0.0.1",
+    "name": "flujo-trabajo-test-unitario",
+    "description": "Una presentación que demuestra un flujo de trabajo usando NodeJS, NPM, test-unitarios y BDD (desarrollo-orientado-al-­comportamiento)",
+    "author": "Rein Petersen <email@reinpetersen.com>",
+    "contributors": [],
+    "copyright": "copyleft",
+
+    "bugs": {
+        "url": "https://bitbucket.org/Reinsbrain/unit-test-nodejs-server-demo/issues"
+    },
+    "engine": "node ^0.12.2",
+    "main": "./lib",
+    "scripts": {
+        "test": "mocha -w",
+        "coverage": "istanbul cover _mocha test --recursive"
+    },
+    "dependencies": {
+        "jsonschema": "latest"
+    },
+    "devDependencies": {
+        "mocha": "latest",
+        "chai": "latest",
+        "sinon": "latest",
+        "sinon-chai": "latest",
+        "istanbul": "latest"
+    }
+}
