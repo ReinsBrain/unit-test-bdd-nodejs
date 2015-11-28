@@ -5,9 +5,12 @@
     "author": "Rein Petersen <email@reinpetersen.com>",
     "contributors": [],
     "copyright": "copyleft",
-
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ReinsBrain/unit-test-bdd-nodejs.git"
+    },
     "bugs": {
-        "url": "https://bitbucket.org/Reinsbrain/unit-test-nodejs-server-demo/issues"
+        "url": "https://github.com/ReinsBrain/unit-test-bdd-nodejs/issues"
     },
     "engine": "node ^0.12.2",
     "main": "./lib",
